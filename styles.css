@@ -1,3 +1,58 @@
 header {
-  
+  background-image: url('images/ocean-header.jpg');
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-col-1 {
+  display: inline-block;
+  width: 49.8%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.nav-col-2 {
+  display: inline-block;
+  width: 49.8%;
+  text-align: center;
+}
+
+.nav-col-2 ul {
+  display: inline-block;
+}
+
+.nav-col-2 li {
+  display: inline-block;
+}
+
+.nav-col-2 img {
+  vertical-align: middle;
+  width: 13px;
+}
+
+.header-text {
+  text-align: center;
+  position: relative;
+  top: -323px;
+}
+
+.header-text h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.overlay {
+  height: 500px;
+  background-color: #186FB4;
+  opacity: .7;
+}
+
+section {
+  width: 75%;
+}
+
+aside {
+  width: 23%;
 }
