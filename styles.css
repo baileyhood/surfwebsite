@@ -6,6 +6,23 @@ header {
   background-size: cover;
 }
 
+.main-content li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-content ul {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.9em;
+  line-height: 1.2em;
+}
+
 .nav-col-1 {
   display: inline-block;
   width: 49.8%;
@@ -41,6 +58,7 @@ header {
 .header-text h1 {
   font-size: 5em;
   margin: 0;
+  color: white;
 }
 
 .overlay {
@@ -49,10 +67,31 @@ header {
   opacity: .7;
 }
 
+.main-content {
+  width: 83%;
+  margin: auto;
+}
+
 section {
-  width: 75%;
+  display: inline-block;
+  /*background-color: red; */
+  width: 65%;
 }
 
 aside {
-  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: blue;
+  width: 34%;
+}
+
+.snowboarder-pic{
+  border-radius: 100%;
+  background-color: #186FB4;
+  width: 4%;
+  vertical-align: middle;
+}
+
+section ul {
+  padding: 0;
 }
