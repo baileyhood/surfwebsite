@@ -95,14 +95,16 @@ h3 {
 
 .nav-col-2 li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 8px 0 0;
 }
 
 .nav-col-2 img {
   vertical-align: middle;
   width: 17px;
 }
-
+.nav-col-2 a {
+  color: inherit;
+}
 .header-text {
   text-align: center;
   position: relative;
@@ -110,9 +112,10 @@ h3 {
 }
 
 .header-text h1 {
-  font-size: 5em;
+  font-size: 5.5em;
   margin: 0;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .overlay {
@@ -184,26 +187,114 @@ span.date-link {
   margin: 0;
 }
 
-.button-div {
+.-div {
   width: 100%;
 }
 
-.buttons {
+/***************
+Buttons section
+***************/
+
+.buttons-1 {
   display: inline-block;
-  width: 25%;
-  background-color: green;
-  height: 35px;
+  width: 28%;
+  background-color: #A3B3BF;
+  height: 38px;
 }
 
-.buttons .button-text {
+.buttons-1:hover {
+  background-color: #106DB3;
+}
+
+.buttons-1 p {
   color: white;
   display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 13px;
+  font-size: .8em;
+
+}
+.icon-box {
+  height: 38px;
+  width: 42px;
+  background-color: #5E686F;
+  background-image: url("images/cloud.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  display: inline-block;
 }
 
-.icon-box {
-  height: 35px;
-  width: 25px;
-  background-color: red;
+.icon-box:hover {
+  background-color: #083452;
+}
+
+.buttons-2 {
+  display: inline-block;
+  width: 28%;
+  background-color: #A3B3BF;
+  height: 38px;
+  font-size: .8em;
+}
+
+.icon-box-2 {
+  height: 38px;
+  width: 42px;
+  background-color: #5E686F;
+  background-image: url("images/share.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  display: inline-block;
+}
+
+.buttons-2 p {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 13px;
+  left: 15px;
+}
+
+.buttons-3 {
+  display: inline-block;
+  width: 32%;
+  background-color: #A3B3BF;
+  height: 38px;
+  font-size: .8em;
+}
+
+.icon-box-3 {
+  height: 38px;
+  width: 42px;
+  background-color: #5E686F;
+  background-image: url("images/social-bubble.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  display: inline-block;
+}
+
+.buttons-3 p {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 13px;
+  left: 15px;
+}
+
+section a{
+  color: #1A71B5;
+  text-decoration: none;
+}
+
+section a:hover{
+  color: #1A71B5;
+  text-decoration: underline;
+  font-size: 1.1em;
 }
 
 .contact-block {
@@ -277,7 +368,7 @@ span.date-link {
    opacity: 0.6;
 }
 
-.color-overlay:hover{
+.gallery-grid .color-overlay:hover{
   position: absolute;
   top: 0;
   left: 0;
@@ -377,6 +468,13 @@ footer {
   color:#A3B3A7;
 }
 
+.footer-content {
+    width: 75%;
+    max-width: 75%;
+    margin: auto;
+  }
+
+
 .footer-text {
   display: inline-block;
   margin-top: 3px;
@@ -386,11 +484,10 @@ footer {
 .ironyard-logo {
   width: 8%;
   vertical-align: middle;
-  margin-left: 9%;
 }
 
 .second-nav {
-  margin-left: 192px;
+  margin-left:18%
 }
 
 .second-nav, ul, li {
@@ -399,4 +496,11 @@ footer {
 
 .second-nav li {
   padding: 0 8px;
+}
+
+.button-div img {
+  width: 31px;
+  vertical-align: middle;
+  background: #5E686F;
+  padding: 9px;
 }
