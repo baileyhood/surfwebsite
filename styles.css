@@ -6,6 +6,17 @@ header {
   background-size: cover;
 }
 
+p{
+  font-family: 'Asap', sans-serif;
+}
+nav p {
+  display: inline-block;
+}
+nav img {
+  vertical-align: middle;
+  width: 6%;
+}
+
 .main-content li {
   list-style: none;
   display: inline-block;
@@ -19,8 +30,42 @@ h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 2.9em;
+  font-size: 3.6em;
   line-height: 1.2em;
+  color: #063250;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #186FB4;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.color-overlay-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-color: #186FB4;
+  opacity: 0.6;
+}
+
+.main-content p {
+  color: #606B71;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .nav-col-1 {
@@ -28,12 +73,20 @@ h1 {
   width: 49.8%;
   vertical-align: top;
   text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  padding-top: 5px;
+
 }
 
 .nav-col-2 {
   display: inline-block;
   width: 49.8%;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  position: relative;
 }
 
 .nav-col-2 ul {
@@ -42,17 +95,18 @@ h1 {
 
 .nav-col-2 li {
   display: inline-block;
+  padding: 0 10px;
 }
 
 .nav-col-2 img {
   vertical-align: middle;
-  width: 13px;
+  width: 17px;
 }
 
 .header-text {
   text-align: center;
   position: relative;
-  top: -323px;
+  top: 122px;
 }
 
 .header-text h1 {
@@ -68,21 +122,23 @@ h1 {
 }
 
 .main-content {
-  width: 83%;
+  width: 75%;
+  max-width: 75%;
   margin: auto;
+  padding-top: 40px;
 }
 
 section {
   display: inline-block;
   /*background-color: red; */
-  width: 65%;
+  width: 58%;
 }
 
 aside {
   display: inline-block;
   vertical-align: top;
-  background-color: blue;
   width: 34%;
+  margin-left: 67px;
 }
 
 .snowboarder-pic{
@@ -92,6 +148,255 @@ aside {
   vertical-align: middle;
 }
 
+section p {
+  font-size: 1.2em;
+}
+
 section ul {
   padding: 0;
+}
+
+span.name-link {
+  color: #186FB4;
+  font-weight: bold;
+}
+
+span.date-link {
+  color: #AFBCC6;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+.quote-block {
+  font-family: 'Asap', sans-serif;
+  font-size: 2em;
+  color: red;
+  text-transform: uppercase;
+  padding-left: 30px;
+  border-left: 1px solid #D7D7D7;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 25px 0;
+}
+
+.quote-block p {
+  color: #1A71B5;
+  margin: 0;
+}
+
+.button-div {
+  width: 100%;
+}
+
+.buttons {
+  display: inline-block;
+  width: 25%;
+  background-color: green;
+  height: 35px;
+}
+
+.buttons .button-text {
+  color: white;
+  display: inline-block;
+}
+
+.icon-box {
+  height: 35px;
+  width: 25px;
+  background-color: red;
+}
+
+.contact-block {
+  padding-top: 0px;
+}
+
+.snowboarder {
+  border-radius: 100%;
+  width: 32%;
+  margin-left: 34%;
+}
+
+#name-text {
+  text-align: center;
+  color: #186FB4;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.contact-block .social-media-links  {
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+
+}
+
+.contact-block a {
+  text-decoration: none;
+  color: #AFBCC6;
+}
+
+.snowboarder {
+  height: 100px;
+  width: 100px;
+  background-image: url("images/snowboarder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 25px auto;
+  position: relative;
+}
+
+#color-overlay-circular {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #186FB4;
+   opacity: 0.6;
+   border-radius: 100%;
+}
+
+.paddleboarder-div {
+  height: 300px;
+  width: 275px;
+  background-image: url("images/paddleboarder.jpg");
+  background-position-x: -125px;
+  margin: 25px auto 5px auto;
+  position: relative;
+}
+
+.color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #186FB4;
+   opacity: 0.6;
+}
+
+.color-overlay:hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #186FB4;
+  opacity: 0;
+}
+
+#About-Ad-Link {
+  text-align: right;
+  margin: 0;
+  font-size: .85em;
+}
+
+#About-Ad-Link a {
+  color: red;
+  margin-right: 18px;
+  color: #AFBCC6;
+}
+
+.sidebar-text-container {
+  padding: 0 20px;
+}
+
+.sidebar-text-container p {
+  font-size: 1em;
+}
+
+.line-seperator {
+  width: 100%;
+  border-top: .5px solid #EEEEEE;
+  margin: 25px 0;
+}
+
+.gallery-grid {
+  margin-top: 23px;
+  width: 100%;
+}
+
+.photo-block1 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("images/photo-block-1.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block2 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("images/photo-block-2.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block3 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("images/photo-block-3.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block4 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("images/photo-block-4.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+
+.gallery-grid h3 {
+  position: relative;
+  top: 234px;
+  left: 25px;
+
+}
+
+#longer-text {
+  margin: -11px;
+}
+
+footer {
+  background-color: #083452;
+  height: 100px;
+  width: 100%;
+  color:#A3B3A7;
+}
+
+.footer-text {
+  display: inline-block;
+  margin-top: 3px;
+  margin-top: 41px;
+}
+
+.ironyard-logo {
+  width: 8%;
+  vertical-align: middle;
+  margin-left: 9%;
+}
+
+.second-nav {
+  margin-left: 192px;
+}
+
+.second-nav, ul, li {
+  display: inline-block;
+}
+
+.second-nav li {
+  padding: 0 8px;
 }
