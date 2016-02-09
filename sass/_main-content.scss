@@ -1,21 +1,6 @@
-header {
-  background-image: url('images/ocean-header.jpg');
-  height: 500px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-p{
-  font-family: 'Asap', sans-serif;
-}
-nav p {
-  display: inline-block;
-}
-nav img {
-  vertical-align: middle;
-  width: 6%;
-}
+/******************************
+MAIN-CONTENT
+******************************/
 
 .main-content li {
   list-style: none;
@@ -26,102 +11,10 @@ nav img {
   display: inline-block;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 3.6em;
-  line-height: 1.2em;
-  color: #063250;
-  margin: 0;
-}
-
-h2 {
-  text-transform: uppercase;
-  color: #186FB4;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-}
-
-h3 {
-  text-transform: uppercase;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-}
-
-.color-overlay-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 500px;
-  background-color: #186FB4;
-  opacity: 0.6;
-}
-
 .main-content p {
   color: #606B71;
   font-size: 1em;
   line-height: 1.5em;
-}
-
-.nav-col-1 {
-  display: inline-block;
-  width: 49.8%;
-  vertical-align: top;
-  text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  padding-top: 5px;
-
-}
-
-.nav-col-2 {
-  display: inline-block;
-  width: 49.8%;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  position: relative;
-}
-
-.nav-col-2 ul {
-  display: inline-block;
-}
-
-.nav-col-2 li {
-  display: inline-block;
-  padding: 0 8px 0 0;
-}
-
-.nav-col-2 img {
-  vertical-align: middle;
-  width: 17px;
-}
-.nav-col-2 a {
-  color: inherit;
-}
-.header-text {
-  text-align: center;
-  position: relative;
-  top: 122px;
-}
-
-.header-text h1 {
-  font-size: 5.5em;
-  margin: 0;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.overlay {
-  height: 500px;
-  background-color: #186FB4;
-  opacity: .7;
 }
 
 .main-content {
@@ -219,7 +112,7 @@ Buttons section
   height: 38px;
   width: 42px;
   background-color: #5E686F;
-  background-image: url("images/cloud.png");
+  background-image: url("../images/cloud.png");
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
@@ -242,7 +135,7 @@ Buttons section
   height: 38px;
   width: 42px;
   background-color: #5E686F;
-  background-image: url("images/share.png");
+  background-image: url("../images/share.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -270,7 +163,7 @@ Buttons section
   height: 38px;
   width: 42px;
   background-color: #5E686F;
-  background-image: url("images/social-bubble.png");
+  background-image: url("../images/social-bubble.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -331,7 +224,7 @@ section a:hover{
 .snowboarder {
   height: 100px;
   width: 100px;
-  background-image: url("images/snowboarder.jpg");
+  background-image: url("../images/snowboarder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 25px auto;
@@ -352,7 +245,7 @@ section a:hover{
 .paddleboarder-div {
   height: 300px;
   width: 275px;
-  background-image: url("images/paddleboarder.jpg");
+  background-image: url("../images/paddleboarder.jpg");
   background-position-x: -125px;
   margin: 25px auto 5px auto;
   position: relative;
@@ -402,105 +295,4 @@ section a:hover{
   width: 100%;
   border-top: .5px solid #EEEEEE;
   margin: 25px 0;
-}
-
-.gallery-grid {
-  margin-top: 23px;
-  width: 100%;
-}
-
-.photo-block1 {
-  height: 300px;
-  width: 25.13%;
-  display: inline-block;
-  background-color: red;
-  background-image: url("images/photo-block-1.jpg");
-  background-size:cover;
-  position: relative;
-  margin-left: -5px;
-}
-.photo-block2 {
-  height: 300px;
-  width: 25.13%;
-  display: inline-block;
-  background-color: red;
-  background-image: url("images/photo-block-2.jpg");
-  background-size:cover;
-  position: relative;
-  margin-left: -5px;
-}
-.photo-block3 {
-  height: 300px;
-  width: 25.13%;
-  display: inline-block;
-  background-color: red;
-  background-image: url("images/photo-block-3.jpg");
-  background-size:cover;
-  position: relative;
-  margin-left: -5px;
-}
-.photo-block4 {
-  height: 300px;
-  width: 25.13%;
-  display: inline-block;
-  background-color: red;
-  background-image: url("images/photo-block-4.jpg");
-  background-size:cover;
-  position: relative;
-  margin-left: -5px;
-}
-
-.gallery-grid h3 {
-  position: relative;
-  top: 234px;
-  left: 25px;
-
-}
-
-#longer-text {
-  margin: -11px;
-}
-
-footer {
-  background-color: #083452;
-  height: 100px;
-  width: 100%;
-  color:#A3B3A7;
-}
-
-.footer-content {
-    width: 75%;
-    max-width: 75%;
-    margin: auto;
-  }
-
-
-.footer-text {
-  display: inline-block;
-  margin-top: 3px;
-  margin-top: 41px;
-}
-
-.ironyard-logo {
-  width: 8%;
-  vertical-align: middle;
-}
-
-.second-nav {
-  margin-left:18%
-}
-
-.second-nav, ul, li {
-  display: inline-block;
-}
-
-.second-nav li {
-  padding: 0 8px;
-}
-
-.button-div img {
-  width: 31px;
-  vertical-align: middle;
-  background: #5E686F;
-  padding: 9px;
 }

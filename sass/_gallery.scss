@@ -1,0 +1,60 @@
+/******************************
+GALLERY
+******************************/
+
+.gallery-grid {
+  margin-top: 23px;
+  width: 100%;
+}
+
+.photo-block1 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("../images/photo-block-1.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block2 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("../images/photo-block-2.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block3 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("../images/photo-block-3.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+.photo-block4 {
+  height: 300px;
+  width: 25.13%;
+  display: inline-block;
+  background-color: red;
+  background-image: url("../images/photo-block-4.jpg");
+  background-size:cover;
+  position: relative;
+  margin-left: -5px;
+}
+
+.gallery-grid h3 {
+  position: relative;
+  top: 234px;
+  left: 25px;
+
+}
+
+#longer-text {
+  margin: -11px;
+}
